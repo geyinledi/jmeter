@@ -35,8 +35,9 @@
   				<ignoreResultFailures>true</ignoreResultFailures>
   				<testResultsTimestamp>false</testResultsTimestamp>
   				<testFilesIncluded>
-  					<jMeterTestFile></jMeterTestFile>
+  					<jMeterTestFile>baseinfo.jmx</jMeterTestFile>
   				</testFilesIncluded>
+  				<!-- <testFilesDirectory>/testCases</testFilesDirectory> -->
   				<resultsDirectory>${jmeter.result.jtl.dir}</resultsDirectory>
   			</configuration>
   			<executions>
