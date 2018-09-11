@@ -71,10 +71,10 @@
   						<stylesheet>src\test\resources\jmeter.results.shanhe.me.xsl</stylesheet>
   						<outputDir>${jmeter.result.html.dir}</outputDir>
   						<fileMappers>
-  							<file
+  							<fileMapper
   								implementation="org.codehaus.plexus.components.io.filemappers.FileExtensionMapper">
   									<targetExtension>html</targetExtension>
-  							</file>
+  							</fileMapper>
   						</fileMappers>
   					</transformationSet>
   				</transformationSets>
